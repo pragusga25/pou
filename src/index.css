@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 @import 'tailwindcss/base';
 
 @import 'tailwindcss/components';
@@ -7,6 +11,14 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#tsparticles {
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 #nav-menu {
@@ -74,4 +86,22 @@ body {
   -moz-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d1950;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #03dac6;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #03dac6;
+  border-radius: 12px;
 }

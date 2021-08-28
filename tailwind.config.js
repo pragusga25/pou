@@ -17,6 +17,11 @@ module.exports = {
       160: '40rem',
       200: '50rem',
     },
+    fontFamily: {
+      body: ['Montserrat', 'sans-serif'],
+      serif: ['Nunito', 'sans-serif'],
+      logo: ['Pacifico', 'cursive'],
+    },
   },
   variants: {
     extend: {

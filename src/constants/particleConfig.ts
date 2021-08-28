@@ -1,4 +1,6 @@
-export const particleConfig = {
+import { IOptions, RecursivePartial } from 'tsparticles'
+
+export const particleConfig: RecursivePartial<IOptions> = {
   particles: {
     number: {
       value: 80,
@@ -92,7 +94,7 @@ export const particleConfig = {
         size: 40,
         duration: 2,
         opacity: 8,
-        speed: 3,
+        // speed: 3,
       },
       repulse: {
         distance: 200,

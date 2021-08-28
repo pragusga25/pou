@@ -21,6 +21,7 @@ module.exports = {
       body: ['Montserrat', 'sans-serif'],
       serif: ['Nunito', 'sans-serif'],
       logo: ['Pacifico', 'cursive'],
+      quotes: ['Just Me Again Down Here', 'cursive'],
     },
   },
   variants: {

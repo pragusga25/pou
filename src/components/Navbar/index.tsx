@@ -28,7 +28,7 @@ const Navbar: FC = () => {
           ))}
         </div>
       </nav>
-      {/* <NavbarBottom /> */}
+      <NavbarBottom />
     </>
   )
 }

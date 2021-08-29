@@ -34,7 +34,7 @@ const NavbarBottom: FC = () => {
         {navbarMenu.map(({ id, Icon }, i) => (
           <div
             key={id}
-            className={circle + ` delay-100 transition-all duration-500 bottom-${i * 8} ${!open && 'translate-y-52'}`}
+            className={circle + ` delay-100 transition-all duration-700 bottom-${i * 8} ${!open && 'translate-y-52'}`}
           >
             <Icon color="white" />
           </div>

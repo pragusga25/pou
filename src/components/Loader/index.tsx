@@ -26,7 +26,7 @@ const Loader: React.FC = () => {
   return (
     <div className="bg-[#161d20] font-quotes flex-col min-h-screen w-full flex justify-center items-center">
       <Lottie options={{ ...defaultOptions, animationData: loader, loop: true }} width={size} height={size} />
-      <div className="text-[#03dac6] text-base text-center md:text-xl xl:text-2xl px-4 md:px-8 xl:px-14">
+      <div className="text-[#03dac6] text-base text-center md:text-xl xl:text-2xl px-8 md:px-10 xl:px-14">
         <p>I'm always loading my brain with new ways of looking at something - Tony Robbins</p>
       </div>
     </div>

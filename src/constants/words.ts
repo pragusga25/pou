@@ -1,1 +1,1 @@
-export const strings = ['Web Developer', 'CS Student', 'Tech Enthusist']
+export const strings = ['Web Developer', 'CS Student', 'Tech Enthusiast', 'Continously Learning']
